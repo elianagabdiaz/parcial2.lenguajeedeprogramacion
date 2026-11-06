@@ -193,6 +193,7 @@ namespace AlmacenEg
                             cmdVenta.Parameters.AddWithValue("@montoPagado", totalPagar);
                             cmdVenta.Parameters.AddWithValue("@devuelta", 0.00m);
 
+
                             idVentaGenerado = (int)cmdVenta.ExecuteScalar();
                         }
 
